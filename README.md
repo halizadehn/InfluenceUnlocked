@@ -9,8 +9,9 @@ This repository contains the implementation and evaluation framework for studyin
 
 ## Datasets
 
-- **AdvBench**: This dataset contains 520 queries, covering various types of harmful behavior ([`Datasts/AdvBench.csv`](https://github.com/halizadehn/InfluenceUnlocked/blob/main/Datasets/AdvBench.csv)). 
-- **StrongREJECT**: This dataset encompasses six major categories of behaviors that are explicitly prohibited under all major LLM usage policies: (1) illegal goods and services, (2) non-violent crimes, (3) hate, harassment, and discrimination, (4) disinformation and deception, (5) violence, and (6) sexual content ([`Datasts/StrongREJECT.csv`](https://github.com/halizadehn/InfluenceUnlocked/blob/main/Datasets/StrongREJECT.csv)). 
+- **AdvBench**: This dataset contains 520 queries, covering various types of harmful behavior. 
+- **StrongREJECT**: This dataset encompasses six major categories of behaviors that are explicitly prohibited under all major LLM usage policies:
+  (1) illegal goods and services, (2) non-violent crimes, (3) hate, harassment, and discrimination, (4) disinformation and deception, (5) violence, and (6) sexual content. 
 
 ## Victim Models
 
