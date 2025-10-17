@@ -32,7 +32,7 @@ This repository contains the implementation and evaluation framework for studyin
   > **Note:** We leveraged baseline implementations provided by the [StrongReject benchmark](https://github.com/dsbowen/strong_reject).
 
 ## Defense Baselines:
-- **Mutation-Based**: These methods mitigate harmful behavior by perturbing the input while preserving its meaning. We implement Rephrase and Retokenize strategies, which alter sentence structure or tokenization to disrupt adversarial intent.
+- **[Mutation-Based](https://arxiv.org/pdf/2309.00614)**: These methods mitigate harmful behavior by perturbing the input while preserving its meaning. We implement Rephrase and Retokenize strategies, which alter sentence structure or tokenization to disrupt adversarial intent.
 - **[Detection-Based](https://aclanthology.org/2024.acl-long.568.pdf)**: These approaches identify adversarial prompts before inference through random perturbations such as Rand-Drop, Rand-Insert, Rand-Swap, and Rand-Patch, which test model stability by modifying input tokens or sequences.
 
 ## Code Structure
