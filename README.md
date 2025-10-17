@@ -37,12 +37,14 @@ This repository contains the implementation and evaluation framework for studyin
 
 ## Code Structure
 
-- [persuasive_prompt_generation.py](./Code/persuasive_prompt_generation.py): generates persuasive variants of harmful queries by leveraging Cialdini's persuasion principles to evaluate their effectiveness in eliciting harmful responses from LLMs.
+- [persuasive_prompt_generation.py](./Code/persuasive_prompt_generation.py): Generates persuasive variants of harmful queries based on Cialdini’s persuasion principles. These variants are used to analyze how different persuasion strategies influence LLM compliance with harmful instructions.
 
-- [get_model_responses.py](./Code/get_model_responses.py): implements the process of querying LLMs with original and persuasive prompt variants, collecting their responses to evaluate refusal rates and the effectiveness of persuasion-based jailbreaking attempts.
+- [get_model_responses.py](./Code/get_model_responses.py): Handles the process of querying LLMs with both original and persuasion-based prompts, collecting model outputs to measure refusal behavior and susceptibility to persuasion-driven jailbreaks.
 
-- [evaluation.py](./Code/evaluation.py): assesses model responses to both original and persuasive prompts using Attack Success Rate (ASR) and informativeness scores, and computes Influential Power (IP) to quantify the impact of persuasive strategies across different LLMs.
+- [evaluation.py](./Code/evaluation.py): Evaluates collected responses using metrics such as Attack Success Rate (ASR), Informativeness Score (IS), and Influence Power (IP) to quantify the effectiveness and impact of various persuasion strategies across models.
 
-- [Code/Baselines/](./Code/Baselines/): contains baseline methods for generating adversarial prompts, serving as comparison points to assess the added effectiveness of persuasion-based jailbreak attempts.
+- [Code/Attack baselines/](./Code/Baselines/): Contains baseline implementations of traditional adversarial prompt generation techniques, serving as benchmarks to compare against persuasion-aware jailbreak methods.
+  
+- [Code/Defense baselines/](./Code/Baselines/): Includes implementations of mutation-based and detection-based defense strategies used to evaluate the robustness of LLMs against persuasion-based attacks.
 
 
