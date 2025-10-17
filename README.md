@@ -32,10 +32,9 @@ This repository contains the implementation and evaluation framework for studyin
   > **Note:** We leveraged baseline implementations provided by the [StrongReject benchmark](https://github.com/dsbowen/strong_reject).
 
 ## Defense Baselines:
-- **[d1](https://github.com/llm-attacks/llm-attacks)**: finds suffixes via gradient synthesis
-- **[d2](https://arxiv.org/pdf/2310.08419)**: an algorithm that creates semantic jailbreaks using only black-box access to an LLM
-- **[d](https://github.com/CHATS-lab/persuasive_jailbreaker)**: generates persuasive adversarial prompts using different strategies
-  
+- **[Mutation-Based]**: These methods mitigate harmful behavior by perturbing the input while preserving its meaning. We implement Rephrase and Retokenize strategies, which alter sentence structure or tokenization to disrupt adversarial intent.
+- **[Detection-Based]**: These approaches identify adversarial prompts before inference through random perturbations such as Rand-Drop, Rand-Insert, Rand-Swap, and Rand-Patch, which test model stability by modifying input tokens or sequences
+
 ## Code Structure
 
 - [persuasive_prompt_generation.py](./Code/persuasive_prompt_generation.py): generates persuasive variants of harmful queries by leveraging Cialdini's persuasion principles to evaluate their effectiveness in eliciting harmful responses from LLMs.
