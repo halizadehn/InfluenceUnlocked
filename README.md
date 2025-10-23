@@ -6,7 +6,6 @@ This repository contains the implementation and evaluation framework for studyin
 ![Overview](./Figures/framework.jpg)
 
 
-
 ## Datasets
 
 - **AdvBench**: This dataset contains 520 queries, covering various types of harmful behavior. 
