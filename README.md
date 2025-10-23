@@ -3,7 +3,7 @@
 This repository contains the implementation and evaluation framework for studying persuasion-based jailbreak attacks on Large Language Models (LLMs). The project operationalizes Cialdini’s persuasion principles to generate adversarial prompts and analyze model-specific susceptibility profiles.
 
 ## Pipeline overview
-![Overview](./Figures/framework.jpg)
+![overview](./Figures/framework.jpg)
 
 
 ## Datasets
