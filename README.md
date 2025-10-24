@@ -1,4 +1,4 @@
-# Influence Unlocked: Persuasion-Aware Jailbreaking and the Hidden Persuasive Fingerprints of Large Language Models
+# Persuasion-Aware Jailbreaking as Social Engineering: Fingerprinting LLM Susceptibilities and Defense Implications
 
 This repository contains the implementation and evaluation framework for studying persuasion-based jailbreak attacks on Large Language Models (LLMs). The project operationalizes Cialdini’s persuasion principles to generate adversarial prompts and analyze model-specific susceptibility profiles.
 
