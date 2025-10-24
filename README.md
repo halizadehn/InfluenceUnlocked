@@ -40,6 +40,6 @@ This repository contains the implementation and evaluation framework for studyin
 
 - [Code/Attack baselines/](./Code/Baselines/): Contains baseline implementations of traditional adversarial prompt generation techniques, serving as benchmarks to compare against persuasion-aware jailbreak methods.
   
-- [Code/Defense baselines/](./Code/Baselines/): Includes implementations of mutation-based and detection-based defense strategies used to evaluate the robustness of LLMs against persuasion-based attacks.
+- [Code/Defense baselines/](./Code/Baselines/): Includes implementations of defense strategies used to evaluate the robustness of LLMs against persuasion-based attacks.
 
 
